@@ -2,7 +2,7 @@
   "name": "art-museum",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ericwongcv.github.io/",
+  "homepage": "https://ericwongcv.github.io/art-museum",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
