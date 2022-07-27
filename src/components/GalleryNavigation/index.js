@@ -7,13 +7,13 @@ const GalleryNavigation = (prop) => {
 
     return (
         <nav>
-            <p><NavLink to='/'><AiTwotoneHome className='home-button' size='30px' /></NavLink></p>
+            <p><NavLink to='/art-museum'><AiTwotoneHome className='home-button' size='30px' /></NavLink></p>
             <div className='dropdown'>
                 <button class="dropbtn">Galleries</button>
                 <div class="dropdown-content">
                     {galleries.map(gallery => (
                         <div key={`${gallery.id}`}>
-                            <NavLink to={`/galleries/${gallery.id}`}>{gallery.name}</NavLink>
+                            <NavLink to={`/art-museum/galleries/${gallery.id}`}>{gallery.name}</NavLink>
                         </div>
                     ))}
                 </div>

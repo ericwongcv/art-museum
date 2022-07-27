@@ -5,7 +5,7 @@ const ArtImageTile = (prop) => {
     const galleryId = prop.galleryId;
 
     return (
-        <Link to={`/galleries/${galleryId}/art/${images[0].imageid}`}>
+        <Link to={`/art-museum/galleries/${galleryId}/art/${images[0].imageid}`}>
             <img src={`${images[0].baseimageurl}`} style={{ width: '300px' }} alt={`${images[0].imageid}`} />
         </Link>
     );

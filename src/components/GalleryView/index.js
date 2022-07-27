@@ -15,7 +15,7 @@ const GalleryView = (prop) => {
     return (
         <div className="gallery-view">
                 <center><h2>{gallery.name}</h2></center>
-                <Route exact path='/galleries/:galleryId'>
+                <Route exact path='/art-museum/galleries/:galleryId'>
                     {gallery.objects.map(gallery => {
                         if (gallery.images.length !== 0) {
                             return (
@@ -28,7 +28,7 @@ const GalleryView = (prop) => {
                         return null;
                     })}
                 </Route>
-            <Route path='/galleries/:galleryId/art/:artId'>
+            <Route path='/art-museum/galleries/:galleryId/art/:artId'>
                 <ArtDescription gallery={gallery} galleryId={galleryId} />
             </Route>
         </div>

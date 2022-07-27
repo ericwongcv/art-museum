@@ -15,7 +15,7 @@ const ArtDescription = (prop) => {
         <div className='art-description'>
             <div className='tile-links'>
                 <center><p>
-                    <Link to={`/galleries/${galleryId}`}>Back to "{gallery.name}"</Link>
+                    <Link to={`/art-museum/galleries/${galleryId}`}>Back to "{gallery.name}"</Link>
                 </p></center>
                 <center><p>
                     <a href={img.baseimageurl}>{`${artObject.title}`}</a>
