@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/art-museum/static/css/main.21bec60a.css",
-    "main.js": "/art-museum/static/js/main.b7468fc1.js",
+    "main.js": "/art-museum/static/js/main.184194b4.js",
     "index.html": "/art-museum/index.html",
     "main.21bec60a.css.map": "/art-museum/static/css/main.21bec60a.css.map",
-    "main.b7468fc1.js.map": "/art-museum/static/js/main.b7468fc1.js.map"
+    "main.184194b4.js.map": "/art-museum/static/js/main.184194b4.js.map"
   },
   "entrypoints": [
     "static/css/main.21bec60a.css",
-    "static/js/main.b7468fc1.js"
+    "static/js/main.184194b4.js"
   ]
 }
